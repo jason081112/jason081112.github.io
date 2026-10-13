@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jason Wang · Student developer</title>
+<meta name="description" content="Jason Wang — student developer. Games, tools, and open-source translation.">
+<style>
+  :root{
+    --bg:#0d1117; --card:#161b22; --border:#30363d;
+    --fg:#e6edf3; --muted:#8b949e; --accent:#58a6ff; --green:#3fb950;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,sans-serif;
+    line-height:1.6; padding:0 20px;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:64px 0 80px}
+  header{text-align:center;margin-bottom:56px}
+  header h1{font-size:2.4rem;margin-bottom:10px;letter-spacing:-.5px}
+  header .sub{color:var(--muted);font-size:1.05rem}
+  header .sub b{color:var(--fg);font-weight:600}
+  .links{margin-top:18px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap}
+  .links a{color:var(--accent);text-decoration:none;font-size:.95rem}
+  .links a:hover{text-decoration:underline}
+
+  h2{font-size:1.35rem;margin:48px 0 18px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+  .desc{color:var(--muted);font-size:.92rem;margin:-10px 0 18px}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px}
+  .card{
+    background:var(--card);border:1px solid var(--border);border-radius:10px;
+    padding:18px 20px;transition:border-color .15s;
+  }
+  .card:hover{border-color:var(--accent)}
+  .card h3{font-size:1.05rem;margin-bottom:6px}
+  .card h3 a{color:var(--fg);text-decoration:none}
+  .card h3 a:hover{color:var(--accent)}
+  .card p{color:var(--muted);font-size:.9rem;margin-bottom:12px}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tag{
+    background:#1f6feb26;color:var(--accent);border-radius:20px;
+    padding:2px 10px;font-size:.72rem;font-weight:500;
+  }
+  .tag.warn{background:#d2992226;color:#d29922}
+  .demo{display:inline-block;margin-top:10px;color:var(--green);font-size:.85rem;text-decoration:none}
+  .demo:hover{text-decoration:underline}
+  .note{color:var(--muted);font-size:.78rem;font-style:italic;margin-top:8px}
+
+  .os{
+    background:var(--card);border:1px solid var(--border);border-left:3px solid var(--green);
+    border-radius:10px;padding:20px 22px;
+  }
+  .os h3{margin-bottom:8px}
+  .os h3 a{color:var(--fg);text-decoration:none}
+  .os h3 a:hover{color:var(--accent)}
+  .os p{color:var(--muted);font-size:.92rem;margin-bottom:10px}
+  .badge{
+    display:inline-block;background:#238636;color:#fff;border-radius:6px;
+    padding:3px 10px;font-size:.78rem;font-weight:600;margin-bottom:12px;
+  }
+  footer{margin-top:64px;text-align:center;color:var(--muted);font-size:.82rem}
+  footer a{color:var(--muted)}
+  @media (max-width:600px){ header h1{font-size:1.9rem} .wrap{padding-top:44px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Hi there, I'm Jason Wang 👋</h1>
+    <p class="sub">
+      🎓 Student developer &nbsp;·&nbsp; 🎮 Building small games and tools &nbsp;·&nbsp; 🌍 Open-source translator
+    </p>
+    <p class="sub" style="margin-top:6px">学生开发者 · 做游戏和小工具 · 开源翻译贡献者</p>
+    <div class="links">
+      <a href="https://github.com/jason081112">GitHub</a>
+      <a href="mailto:58059436+jason081112@users.noreply.github.com">✉️ Email</a>
+    </div>
+  </header>
+
+  <h2>🛠️ Projects <span style="color:var(--muted);font-size:.9rem;font-weight:400">/ 项目</span></h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3><a href="https://github.com/jason081112/nyan.github.io">🕹️ Nyan Hero</a></h3>
+      <p>Rainbow-hero endless runner. Difficulty ramps up, multi-mode pipes, per-character stats tracking.<br>
+      彩虹英雄跑酷游戏，难度渐进、多模式管子、分角色统计。</p>
+      <a class="demo" href="https://jason081112.github.io/nyan.github.io/">▶ Play it live / 在线试玩 →</a>
+      <div class="tags" style="margin-top:12px">
+        <span class="tag">JavaScript</span><span class="tag">HTML5 Canvas</span><span class="tag">CSS</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3><a href="https://github.com/jason081112/gaokao-writing-evaluator">📝 高考作文诊断器</a></h3>
+      <p>Auto-detects 应用文 &amp; 读后续写, then scores against the official gaokao rubric in three tiers.<br>
+      自动识别应用文/读后续写，按新高考标准三档评分。</p>
+      <a class="demo" href="https://jason081112.github.io/gaokao-writing-evaluator/">▶ Try it / 在线试用 →</a>
+      <div class="tags" style="margin-top:12px">
+        <span class="tag">HTML</span><span class="tag">JavaScript</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3><a href="https://github.com/jason081112/writing-dna-skill">🧬 写作蒸馏器</a></h3>
+      <p>Agent skill that distills a writer's style and recreates it in new text.<br>
+      蒸馏复刻任意写作风格的 agent skill。</p>
+      <div class="tags" style="margin-top:6px">
+        <span class="tag">Python</span><span class="tag warn">Customized fork</span>
+      </div>
+      <p class="note">Heavily customized fork of
+        <a href="https://github.com/larashero3-dotcom/writing-dna-skill" style="color:var(--accent)">larashero3-dotcom/writing-dna-skill</a>
+        — rewritten docs, rebuilt skill spec, localized content.</p>
+    </div>
+
+  </div>
+
+  <h2>🌍 Open Source <span style="color:var(--muted);font-size:.9rem;font-weight:400">/ 开源贡献</span></h2>
+  <div class="os">
+    <span class="badge">✓ Merged · PR #1326</span>
+    <h3><a href="https://github.com/GyulyVGC/sniffnet">Sniffnet</a>
+      <span style="color:var(--muted);font-weight:400;font-size:.9rem">— 41k+ ⭐</span></h3>
+    <p>Comfortably monitor your network traffic.</p>
+    <p>Added <b>Simplified &amp; Traditional Chinese</b> translations for v1.6, and fixed a bug where
+       simplified characters had leaked into the <code>zh_TW</code> strings
+       (<code>数据阈值</code> → <code>數據閾值</code>).</p>
+    <p>Merged by the maintainer and added to the official
+       <a href="https://github.com/GyulyVGC/sniffnet/blob/main/CONTRIBUTORS.md" style="color:var(--accent)">contributors list</a>
+       — contributor <b>#119</b>, type 🌍 Translation.</p>
+  </div>
+
+  <footer>
+    <p>Built with plain HTML &amp; CSS · <a href="https://github.com/jason081112">github.com/jason081112</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
