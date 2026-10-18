@@ -123,7 +123,7 @@
 
     if (data.generated_at) {
       fragment.appendChild(el("div", "pa-updated",
-        "数据更新于 " + beijingTime(data.generated_at) + " 北京时间 · 每天自动刷新 3 次"));
+        "数据更新于 " + beijingTime(data.generated_at) + " 北京时间 · 每 15 分钟自动同步"));
     }
 
     root.textContent = "";
