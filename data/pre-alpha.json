@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:32:17Z",
+  "generated_at": "2026-10-18T15:51:14Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,17 +7,17 @@
   },
   "overall": {
     "total": 65,
-    "closed": 5,
-    "open": 60,
-    "percent": 7.7
+    "closed": 11,
+    "open": 54,
+    "percent": 16.9
   },
   "phases": [
     {
       "key": "P0",
       "label": "P0 调研验证",
       "total": 10,
-      "closed": 4,
-      "percent": 40.0
+      "closed": 10,
+      "percent": 100.0
     },
     {
       "key": "P1",
@@ -63,45 +63,45 @@
     }
   ],
   "status": {
-    "Todo": 59,
-    "In Progress": 1,
-    "Done": 5
+    "Todo": 54,
+    "In Progress": 0,
+    "Done": 11
   },
   "recent": [
     {
-      "number": 4,
-      "title": "读 style_memory.py + persona/store.py + seeds.bin：风格种子数据结构与写入 API",
+      "number": 10,
+      "title": "许可证核对：OpenHer Apache-2.0 + Distilly MIT → 本仓库 Apache-2.0 + THIRD_PARTY_NOTICES",
       "state": "closed",
-      "updated_at": "2026-10-18T15:24:20Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/4"
+      "updated_at": "2026-10-18T15:51:02Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/10"
     },
     {
-      "number": 2,
-      "title": "定位 prompt 注入点：确认 SOUL.md 与 SHELL.md 谁进 prompt（prompt_builder.py + engine/prompts/actor_single.md）——决定映射层写哪",
+      "number": 9,
+      "title": "LLM provider 选型与连通性实测（gemini 免费档 / openrouter 免费模型 / ollama 本地）",
       "state": "closed",
-      "updated_at": "2026-10-15T16:14:52Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/2"
+      "updated_at": "2026-10-18T15:51:00Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/9"
     },
     {
-      "number": 3,
-      "title": "读 engine/genome/genome_engine.py：25D→24D→8D 输入向量构成，哪些维度可被外部种子影响",
+      "number": 8,
+      "title": "Termux 环境盘点报告：python3.11 / venv / pip 源 / 端口 8000 / 磁盘空间",
       "state": "closed",
-      "updated_at": "2026-10-15T16:13:40Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/3"
+      "updated_at": "2026-10-18T15:46:34Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/8"
     },
     {
-      "number": 1,
-      "title": "通读 agent/chat_agent.py，画出一轮对话的完整调用链",
+      "number": 7,
+      "title": "读 memory/soulmem.py + memory_store.py：FTS5 与 EverOS 分层，EverOS 缺席时的降级路径",
       "state": "closed",
-      "updated_at": "2026-10-15T16:09:19Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/1"
+      "updated_at": "2026-10-18T15:35:47Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/7"
     },
     {
-      "number": 65,
-      "title": "docs/architecture.md 两阶段流水线 Mermaid 图",
-      "state": "open",
-      "updated_at": "2026-10-15T15:47:14Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/65"
+      "number": 6,
+      "title": "读 critic.py + signal_buckets.yaml：8 维行为信号→文本映射，纠错层落点",
+      "state": "closed",
+      "updated_at": "2026-10-18T15:35:46Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/6"
     }
   ]
 }
