@@ -63,6 +63,18 @@
   footer{margin-top:64px;text-align:center;color:var(--muted);font-size:.82rem}
   footer a{color:var(--muted)}
 
+  /* 关于我 */
+  .about{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px 22px}
+  .about ul{list-style:none;display:flex;flex-direction:column;gap:16px}
+  .about li{display:flex;gap:12px;align-items:flex-start}
+  .about-emoji{font-size:1.2rem;line-height:1.5;flex:0 0 auto}
+  .about-body{min-width:0}
+  .about-en{font-size:.92rem;color:var(--muted);margin:0}
+  .about-en b{color:var(--fg)}
+  .about-zh{font-size:.86rem;color:var(--muted);margin:3px 0 0}
+  .about a{color:var(--accent);text-decoration:none}
+  .about a:hover{text-decoration:underline}
+
   /* Pre_Alpha 进度区块 */
   .pa{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px 22px}
   .pa-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px;flex-wrap:wrap}
@@ -119,6 +131,34 @@
       <a href="mailto:58059436+jason081112@users.noreply.github.com">✉️ Email</a>
     </div>
   </header>
+
+  <h2>👤 About <span style="color:var(--muted);font-size:.9rem;font-weight:400">/ 关于我</span></h2>
+  <div class="about">
+    <ul>
+      <li>
+        <span class="about-emoji">🎓</span>
+        <div class="about-body">
+          <p class="about-en"><b>edtech builder</b> — puts technology and AI behind education: a gaokao essay evaluator that auto-detects 应用文 &amp; 读后续写 and scores against the official rubric, plus an agent skill that distills a writer's style and recreates it in new text.</p>
+          <p class="about-zh">把技术和 AI 用在教育上：高考作文诊断器自动识别应用文/读后续写、按官方标准评分；另有一个蒸馏写作风格并在新文本里复刻的 agent skill。</p>
+        </div>
+      </li>
+      <li>
+        <span class="about-emoji">🌍</span>
+        <div class="about-body">
+          <p class="about-en"><b>open-source translator</b> — contributed Simplified &amp; Traditional Chinese to
+            <a href="https://github.com/GyulyVGC/sniffnet">Sniffnet</a> (41k+ ⭐), merged and added to the official contributors list.</p>
+          <p class="about-zh">给 Sniffnet（41k+ ⭐）贡献简繁中文翻译，已合并并进入官方贡献者名单。</p>
+        </div>
+      </li>
+      <li>
+        <span class="about-emoji">🎮</span>
+        <div class="about-body">
+          <p class="about-en"><b>game maker</b> — built <i>Nyan Hero</i>, a browser platformer with difficulty progression, multi-mode obstacles, and four playable characters.</p>
+          <p class="about-zh">做了 Nyan Hero：难度渐进、多模式管子、四个可选角色的浏览器跑酷游戏。</p>
+        </div>
+      </li>
+    </ul>
+  </div>
 
   <h2>🚧 Pre_Alpha <span style="color:var(--muted);font-size:.9rem;font-weight:400">/ 开发进度</span></h2>
   <p class="desc">Local-first companion AI — 把聊天记录蒸馏成一个人格，再让引擎把她「活」起来。进度取自仓库 issue 与 Project 看板，每天自动刷新 3 次。</p>
