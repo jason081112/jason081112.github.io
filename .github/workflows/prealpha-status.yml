@@ -1,0 +1,38 @@
+name: Pre-Alpha status snapshot
+
+# 北京时间 07:00 / 22:00 / 01:00（= UTC 23:00 / 14:00 / 17:00）
+# 分钟用 7 而非 0：整点是 GitHub 调度负载高峰，错开可减少延迟
+on:
+  schedule:
+    - cron: "7 14,17,23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prealpha-status
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 抓取 Pre_Alpha 指标
+        env:
+          PREALPHA_TOKEN: ${{ secrets.PREALPHA_TOKEN }}
+        run: python3 scripts/fetch_prealpha_status.py
+
+      - name: 数据有变化则提交
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/pre-alpha.json
+          if git diff --cached --quiet; then
+            echo "数据无变化，无需提交"
+          else
+            git commit -m "chore: 更新 Pre_Alpha 状态快照"
+            git push
+          fi

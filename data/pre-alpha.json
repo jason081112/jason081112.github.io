@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-18T15:32:17Z",
+  "source": {
+    "repo": "https://github.com/jason081112/Pre_Alpha",
+    "issues": "https://github.com/jason081112/Pre_Alpha/issues",
+    "project": "https://github.com/users/jason081112/projects/1"
+  },
+  "overall": {
+    "total": 65,
+    "closed": 5,
+    "open": 60,
+    "percent": 7.7
+  },
+  "phases": [
+    {
+      "key": "P0",
+      "label": "P0 调研验证",
+      "total": 10,
+      "closed": 4,
+      "percent": 40.0
+    },
+    {
+      "key": "P1",
+      "label": "P1 后端跑通",
+      "total": 10,
+      "closed": 1,
+      "percent": 10.0
+    },
+    {
+      "key": "P2",
+      "label": "P2 前端跑通",
+      "total": 10,
+      "closed": 0,
+      "percent": 0.0
+    },
+    {
+      "key": "P3",
+      "label": "P3 桥接层",
+      "total": 14,
+      "closed": 0,
+      "percent": 0.0
+    },
+    {
+      "key": "P4",
+      "label": "P4 交互层",
+      "total": 8,
+      "closed": 0,
+      "percent": 0.0
+    },
+    {
+      "key": "P5",
+      "label": "P5 隐私合规",
+      "total": 7,
+      "closed": 0,
+      "percent": 0.0
+    },
+    {
+      "key": "P6",
+      "label": "P6 工程基建",
+      "total": 6,
+      "closed": 0,
+      "percent": 0.0
+    }
+  ],
+  "status": {
+    "Todo": 59,
+    "In Progress": 1,
+    "Done": 5
+  },
+  "recent": [
+    {
+      "number": 4,
+      "title": "读 style_memory.py + persona/store.py + seeds.bin：风格种子数据结构与写入 API",
+      "state": "closed",
+      "updated_at": "2026-10-18T15:24:20Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/4"
+    },
+    {
+      "number": 2,
+      "title": "定位 prompt 注入点：确认 SOUL.md 与 SHELL.md 谁进 prompt（prompt_builder.py + engine/prompts/actor_single.md）——决定映射层写哪",
+      "state": "closed",
+      "updated_at": "2026-10-15T16:14:52Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/2"
+    },
+    {
+      "number": 3,
+      "title": "读 engine/genome/genome_engine.py：25D→24D→8D 输入向量构成，哪些维度可被外部种子影响",
+      "state": "closed",
+      "updated_at": "2026-10-15T16:13:40Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/3"
+    },
+    {
+      "number": 1,
+      "title": "通读 agent/chat_agent.py，画出一轮对话的完整调用链",
+      "state": "closed",
+      "updated_at": "2026-10-15T16:09:19Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/1"
+    },
+    {
+      "number": 65,
+      "title": "docs/architecture.md 两阶段流水线 Mermaid 图",
+      "state": "open",
+      "updated_at": "2026-10-15T15:47:14Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/65"
+    }
+  ]
+}

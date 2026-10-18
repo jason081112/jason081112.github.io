@@ -62,7 +62,47 @@
   }
   footer{margin-top:64px;text-align:center;color:var(--muted);font-size:.82rem}
   footer a{color:var(--muted)}
-  @media (max-width:600px){ header h1{font-size:1.9rem} .wrap{padding-top:44px} }
+
+  /* Pre_Alpha 进度区块 */
+  .pa{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px 22px}
+  .pa-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+  .pa-headline{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .pa-pct{font-size:2rem;font-weight:700;letter-spacing:-.5px;color:var(--fg)}
+  .pa-frac{color:var(--muted);font-size:.9rem}
+  .pa-link{color:var(--accent);text-decoration:none;font-size:.9rem}
+  .pa-link:hover{text-decoration:underline}
+  .pa-bar{position:relative;height:8px;background:#21262d;border-radius:20px;overflow:hidden}
+  .pa-bar-lg{height:12px}
+  .pa-fill{height:100%;background:linear-gradient(90deg,#238636,#3fb950);border-radius:20px;transition:width .4s ease}
+  .pa-status{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 4px}
+  .pa-chip{display:inline-flex;align-items:center;gap:7px;background:#161b22;border:1px solid var(--border);border-radius:20px;padding:4px 12px;font-size:.82rem;color:var(--fg)}
+  .pa-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+  .pa-dot.todo{background:#8b949e}
+  .pa-dot.prog{background:#d29922}
+  .pa-dot.done{background:#3fb950}
+  .pa-phases{margin-top:18px;display:flex;flex-direction:column;gap:10px}
+  .pa-phase{display:grid;grid-template-columns:120px 1fr 52px;align-items:center;gap:12px;font-size:.86rem}
+  .pa-phase-name{color:var(--fg);white-space:nowrap}
+  .pa-phase-num{color:var(--muted);text-align:right;font-variant-numeric:tabular-nums;font-size:.82rem}
+  .pa-recent{margin-top:22px;border-top:1px solid var(--border);padding-top:16px}
+  .pa-recent-title{color:var(--muted);font-size:.78rem;letter-spacing:.5px;margin-bottom:10px}
+  .pa-recent-list{list-style:none;display:flex;flex-direction:column;gap:8px}
+  .pa-recent-item{display:flex;align-items:center;gap:9px;font-size:.86rem;min-width:0}
+  .pa-recent-state{flex:0 0 auto;font-size:.9rem}
+  .pa-recent-state.closed{color:var(--green)}
+  .pa-recent-state.open{color:#d29922;font-size:.7rem}
+  .pa-recent-link{color:var(--fg);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1 1 auto;min-width:0}
+  .pa-recent-link:hover{color:var(--accent)}
+  .pa-recent-time{flex:0 0 auto;color:var(--muted);font-size:.78rem}
+  .pa-updated{margin-top:16px;color:var(--muted);font-size:.76rem}
+  .pa-fallback{color:var(--muted);font-size:.9rem;margin:0}
+  .pa-fallback a{color:var(--accent)}
+
+  @media (max-width:600px){
+    header h1{font-size:1.9rem} .wrap{padding-top:44px}
+    .pa-phase{grid-template-columns:96px 1fr 46px;gap:8px}
+    .pa-pct{font-size:1.6rem}
+  }
 </style>
 </head>
 <body>
@@ -117,6 +157,12 @@
 
   </div>
 
+  <h2>🚧 Pre_Alpha <span style="color:var(--muted);font-size:.9rem;font-weight:400">/ 开发进度</span></h2>
+  <p class="desc">Local-first companion AI — 把聊天记录蒸馏成一个人格，再让引擎把她「活」起来。进度取自仓库 issue 与 Project 看板，每天自动刷新 3 次。</p>
+  <div id="prealpha" class="pa">
+    <p class="pa-fallback">加载进度数据…</p>
+  </div>
+
   <h2>🌍 Open Source <span style="color:var(--muted);font-size:.9rem;font-weight:400">/ 开源贡献</span></h2>
   <div class="os">
     <span class="badge">✓ Merged · PR #1326</span>
@@ -136,5 +182,7 @@
   </footer>
 
 </div>
+
+<script src="js/prealpha.js"></script>
 </body>
 </html>
