@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-19T16:00:05Z",
+  "generated_at": "2026-10-19T19:31:50Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 78,
-    "closed": 14,
-    "open": 64,
-    "percent": 17.9
+    "total": 79,
+    "closed": 16,
+    "open": 63,
+    "percent": 20.3
   },
   "phases": [
     {
@@ -23,8 +23,8 @@
       "key": "P1",
       "label": "P1 后端跑通",
       "total": 15,
-      "closed": 3,
-      "percent": 20.0
+      "closed": 4,
+      "percent": 26.7
     },
     {
       "key": "P2",
@@ -63,11 +63,25 @@
     }
   ],
   "status": {
-    "Todo": 59,
-    "In Progress": 1,
-    "Done": 14
+    "Todo": 63,
+    "In Progress": 0,
+    "Done": 15
   },
   "recent": [
+    {
+      "number": 12,
+      "title": "monorepo 骨架：vendor/ bridge/ cli/ docs/ tests/ scripts/ + .gitignore",
+      "state": "closed",
+      "updated_at": "2026-10-19T16:26:17Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/12"
+    },
+    {
+      "number": 79,
+      "title": "【索引测试】可删除",
+      "state": "closed",
+      "updated_at": "2026-10-19T16:05:54Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/79"
+    },
     {
       "number": 60,
       "title": "LICENSE(Apache-2.0) + THIRD_PARTY_NOTICES",
@@ -88,20 +102,6 @@
       "state": "open",
       "updated_at": "2026-10-19T15:57:56Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/19"
-    },
-    {
-      "number": 13,
-      "title": "fork kellyvv/OpenHer → clone 到 vendor/OpenHer",
-      "state": "closed",
-      "updated_at": "2026-10-19T15:57:54Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/13"
-    },
-    {
-      "number": 12,
-      "title": "monorepo 骨架：vendor/ bridge/ cli/ docs/ tests/ scripts/ + .gitignore",
-      "state": "open",
-      "updated_at": "2026-10-19T15:57:51Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/12"
     }
   ]
 }
