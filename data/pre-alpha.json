@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-18T15:51:14Z",
+  "generated_at": "2026-10-19T16:00:05Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 65,
-    "closed": 11,
-    "open": 54,
-    "percent": 16.9
+    "total": 78,
+    "closed": 14,
+    "open": 64,
+    "percent": 17.9
   },
   "phases": [
     {
@@ -22,9 +22,9 @@
     {
       "key": "P1",
       "label": "P1 后端跑通",
-      "total": 10,
-      "closed": 1,
-      "percent": 10.0
+      "total": 15,
+      "closed": 3,
+      "percent": 20.0
     },
     {
       "key": "P2",
@@ -43,65 +43,65 @@
     {
       "key": "P4",
       "label": "P4 交互层",
-      "total": 8,
+      "total": 9,
       "closed": 0,
       "percent": 0.0
     },
     {
       "key": "P5",
       "label": "P5 隐私合规",
-      "total": 7,
+      "total": 12,
       "closed": 0,
       "percent": 0.0
     },
     {
       "key": "P6",
       "label": "P6 工程基建",
-      "total": 6,
-      "closed": 0,
-      "percent": 0.0
+      "total": 8,
+      "closed": 1,
+      "percent": 12.5
     }
   ],
   "status": {
-    "Todo": 54,
-    "In Progress": 0,
-    "Done": 11
+    "Todo": 59,
+    "In Progress": 1,
+    "Done": 14
   },
   "recent": [
     {
-      "number": 10,
-      "title": "许可证核对：OpenHer Apache-2.0 + Distilly MIT → 本仓库 Apache-2.0 + THIRD_PARTY_NOTICES",
+      "number": 60,
+      "title": "LICENSE(Apache-2.0) + THIRD_PARTY_NOTICES",
       "state": "closed",
-      "updated_at": "2026-10-18T15:51:02Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/10"
+      "updated_at": "2026-10-19T15:58:02Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/60"
     },
     {
-      "number": 9,
-      "title": "LLM provider 选型与连通性实测（gemini 免费档 / openrouter 免费模型 / ollama 本地）",
+      "number": 20,
+      "title": "EverOS 取舍决策记录（先纯离线 SQLite，云端后接）",
       "state": "closed",
-      "updated_at": "2026-10-18T15:51:00Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/9"
+      "updated_at": "2026-10-19T15:58:00Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/20"
     },
     {
-      "number": 8,
-      "title": "Termux 环境盘点报告：python3.11 / venv / pip 源 / 端口 8000 / 磁盘空间",
-      "state": "closed",
-      "updated_at": "2026-10-18T15:46:34Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/8"
+      "number": 19,
+      "title": "[搁置] Ollama 本地模型在 Android/Termux 的可行性验证（可选）",
+      "state": "open",
+      "updated_at": "2026-10-19T15:57:56Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/19"
     },
     {
-      "number": 7,
-      "title": "读 memory/soulmem.py + memory_store.py：FTS5 与 EverOS 分层，EverOS 缺席时的降级路径",
+      "number": 13,
+      "title": "fork kellyvv/OpenHer → clone 到 vendor/OpenHer",
       "state": "closed",
-      "updated_at": "2026-10-18T15:35:47Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/7"
+      "updated_at": "2026-10-19T15:57:54Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/13"
     },
     {
-      "number": 6,
-      "title": "读 critic.py + signal_buckets.yaml：8 维行为信号→文本映射，纠错层落点",
-      "state": "closed",
-      "updated_at": "2026-10-18T15:35:46Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/6"
+      "number": 12,
+      "title": "monorepo 骨架：vendor/ bridge/ cli/ docs/ tests/ scripts/ + .gitignore",
+      "state": "open",
+      "updated_at": "2026-10-19T15:57:51Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/12"
     }
   ]
 }
