@@ -1,0 +1,46 @@
+name: P1 基线提醒
+
+# 一次性提醒：2026-10-22 16:20 UTC = 北京 10-23 00:20
+# 说明：GitHub 的 schedule 是 best-effort，可能延迟几十分钟。
+on:
+  schedule:
+    - cron: "20 16 22 10 *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 仅 2026 年触发
+        id: guard
+        run: |
+          if [ "$(date -u +%Y)" = "2026" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 创建提醒 issue（bot 身份，会推送通知）
+        if: steps.guard.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BODY: |
+            到点了：该跑 **#17 / #18** 了。
+
+            - #17：luna / iris 各跑 10 轮，保存输出作基线
+            - #18：记录每轮时延与 token 成本
+
+            步骤：
+            1. `gh codespace start -c supreme-goggles-5r5v45w4xqqf44wv`
+            2. 确认 `vendor/OpenHer/.env` 里的 Ollama Key 还在
+            3. 起服务后批量跑 10 轮，结果存到 `tests/baselines/`
+
+            如果今天没空，回我一句「改到明天」即可。
+        run: |
+          gh issue create -R "${{ github.repository }}" \
+            --title "⏰ 提醒：跑 P1 基线 #17 / #18" \
+            --assignee jason081112 \
+            --body "$BODY"
