@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-21T15:31:54Z",
+  "generated_at": "2026-10-21T16:20:33Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 79,
-    "closed": 16,
-    "open": 63,
-    "percent": 20.3
+    "total": 80,
+    "closed": 19,
+    "open": 61,
+    "percent": 23.8
   },
   "phases": [
     {
@@ -23,8 +23,8 @@
       "key": "P1",
       "label": "P1 后端跑通",
       "total": 15,
-      "closed": 4,
-      "percent": 26.7
+      "closed": 7,
+      "percent": 46.7
     },
     {
       "key": "P2",
@@ -43,7 +43,7 @@
     {
       "key": "P4",
       "label": "P4 交互层",
-      "total": 9,
+      "total": 10,
       "closed": 0,
       "percent": 0.0
     },
@@ -63,45 +63,45 @@
     }
   ],
   "status": {
-    "Todo": 63,
+    "Todo": 61,
     "In Progress": 0,
-    "Done": 15
+    "Done": 18
   },
   "recent": [
+    {
+      "number": 15,
+      "title": ".env 配置（DEFAULT_PROVIDER / DEFAULT_MODEL / 密钥），确认密钥不入库",
+      "state": "closed",
+      "updated_at": "2026-10-21T16:17:08Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/15"
+    },
+    {
+      "number": 16,
+      "title": "开发容器内起 :8000：/api/status 通过 + /api/chat 最小对话成功",
+      "state": "closed",
+      "updated_at": "2026-10-21T16:11:59Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/16"
+    },
+    {
+      "number": 14,
+      "title": "setup.sh（Linux 双路径）+ 依赖安装，记录平台差异与替代装法",
+      "state": "closed",
+      "updated_at": "2026-10-21T16:11:59Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/14"
+    },
+    {
+      "number": 80,
+      "title": "灵动 UI：视觉语言 + 动效系统 + Web/PWA → Capacitor Android",
+      "state": "open",
+      "updated_at": "2026-10-21T16:10:02Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/80"
+    },
     {
       "number": 51,
       "title": "[搁置] 微信桥 wechat_adapter.py 试装（可选，默认关）",
       "state": "open",
       "updated_at": "2026-10-21T15:28:13Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/51"
-    },
-    {
-      "number": 19,
-      "title": "[搁置] Ollama 本地模型在 Android/Termux 的可行性验证（可选）",
-      "state": "open",
-      "updated_at": "2026-10-21T15:28:09Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/19"
-    },
-    {
-      "number": 8,
-      "title": "Termux 环境盘点报告：python3.11 / venv / pip 源 / 端口 8000 / 磁盘空间",
-      "state": "closed",
-      "updated_at": "2026-10-21T15:28:07Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/8"
-    },
-    {
-      "number": 78,
-      "title": "容器化部署：Dockerfile + docker-compose + 健康检查 + 回滚脚本",
-      "state": "open",
-      "updated_at": "2026-10-21T15:28:04Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/78"
-    },
-    {
-      "number": 16,
-      "title": "开发容器内起 :8000：/api/status 通过 + /api/chat 最小对话成功",
-      "state": "open",
-      "updated_at": "2026-10-21T15:27:51Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/16"
     }
   ]
 }
