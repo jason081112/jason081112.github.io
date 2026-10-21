@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:31:50Z",
+  "generated_at": "2026-10-21T15:31:54Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -28,7 +28,7 @@
     },
     {
       "key": "P2",
-      "label": "P2 前端跑通",
+      "label": "P2 蒸馏流水线",
       "total": 10,
       "closed": 0,
       "percent": 0.0
@@ -69,39 +69,39 @@
   },
   "recent": [
     {
-      "number": 12,
-      "title": "monorepo 骨架：vendor/ bridge/ cli/ docs/ tests/ scripts/ + .gitignore",
-      "state": "closed",
-      "updated_at": "2026-10-19T16:26:17Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/12"
-    },
-    {
-      "number": 79,
-      "title": "【索引测试】可删除",
-      "state": "closed",
-      "updated_at": "2026-10-19T16:05:54Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/79"
-    },
-    {
-      "number": 60,
-      "title": "LICENSE(Apache-2.0) + THIRD_PARTY_NOTICES",
-      "state": "closed",
-      "updated_at": "2026-10-19T15:58:02Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/60"
-    },
-    {
-      "number": 20,
-      "title": "EverOS 取舍决策记录（先纯离线 SQLite，云端后接）",
-      "state": "closed",
-      "updated_at": "2026-10-19T15:58:00Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/20"
+      "number": 51,
+      "title": "[搁置] 微信桥 wechat_adapter.py 试装（可选，默认关）",
+      "state": "open",
+      "updated_at": "2026-10-21T15:28:13Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/51"
     },
     {
       "number": 19,
       "title": "[搁置] Ollama 本地模型在 Android/Termux 的可行性验证（可选）",
       "state": "open",
-      "updated_at": "2026-10-19T15:57:56Z",
+      "updated_at": "2026-10-21T15:28:09Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/19"
+    },
+    {
+      "number": 8,
+      "title": "Termux 环境盘点报告：python3.11 / venv / pip 源 / 端口 8000 / 磁盘空间",
+      "state": "closed",
+      "updated_at": "2026-10-21T15:28:07Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/8"
+    },
+    {
+      "number": 78,
+      "title": "容器化部署：Dockerfile + docker-compose + 健康检查 + 回滚脚本",
+      "state": "open",
+      "updated_at": "2026-10-21T15:28:04Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/78"
+    },
+    {
+      "number": 16,
+      "title": "开发容器内起 :8000：/api/status 通过 + /api/chat 最小对话成功",
+      "state": "open",
+      "updated_at": "2026-10-21T15:27:51Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/16"
     }
   ]
 }
