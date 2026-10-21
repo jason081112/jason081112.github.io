@@ -31,7 +31,7 @@ OUT_PATH = Path(__file__).resolve().parent.parent / "data" / "pre-alpha.json"
 PHASES = [
     ("P0", "P0 调研验证"),
     ("P1", "P1 后端跑通"),
-    ("P2", "P2 前端跑通"),
+    ("P2", "P2 蒸馏流水线"),
     ("P3", "P3 桥接层"),
     ("P4", "P4 交互层"),
     ("P5", "P5 隐私合规"),
