@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:20:33Z",
+  "generated_at": "2026-10-22T16:08:30Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -63,11 +63,25 @@
     }
   ],
   "status": {
-    "Todo": 61,
-    "In Progress": 0,
+    "Todo": 59,
+    "In Progress": 2,
     "Done": 18
   },
   "recent": [
+    {
+      "number": 71,
+      "title": "BYOK Key 管理：加密存储、连通性校验、脱敏展示、撤销",
+      "state": "open",
+      "updated_at": "2026-10-22T16:03:25Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/71"
+    },
+    {
+      "number": 70,
+      "title": "多 provider 路由：运行期切换 + 用户自定义回退链",
+      "state": "open",
+      "updated_at": "2026-10-22T15:55:59Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/70"
+    },
     {
       "number": 15,
       "title": ".env 配置（DEFAULT_PROVIDER / DEFAULT_MODEL / 密钥），确认密钥不入库",
@@ -88,20 +102,6 @@
       "state": "closed",
       "updated_at": "2026-10-21T16:11:59Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/14"
-    },
-    {
-      "number": 80,
-      "title": "灵动 UI：视觉语言 + 动效系统 + Web/PWA → Capacitor Android",
-      "state": "open",
-      "updated_at": "2026-10-21T16:10:02Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/80"
-    },
-    {
-      "number": 51,
-      "title": "[搁置] 微信桥 wechat_adapter.py 试装（可选，默认关）",
-      "state": "open",
-      "updated_at": "2026-10-21T15:28:13Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/51"
     }
   ]
 }
