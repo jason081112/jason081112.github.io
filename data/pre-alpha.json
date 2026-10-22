@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-22T16:08:30Z",
+  "generated_at": "2026-10-22T16:39:49Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 80,
+    "total": 82,
     "closed": 19,
-    "open": 61,
-    "percent": 23.8
+    "open": 63,
+    "percent": 23.2
   },
   "phases": [
     {
@@ -22,9 +22,9 @@
     {
       "key": "P1",
       "label": "P1 后端跑通",
-      "total": 15,
+      "total": 16,
       "closed": 7,
-      "percent": 46.7
+      "percent": 43.8
     },
     {
       "key": "P2",
@@ -43,7 +43,7 @@
     {
       "key": "P4",
       "label": "P4 交互层",
-      "total": 10,
+      "total": 11,
       "closed": 0,
       "percent": 0.0
     },
@@ -69,39 +69,39 @@
   },
   "recent": [
     {
-      "number": 71,
-      "title": "BYOK Key 管理：加密存储、连通性校验、脱敏展示、撤销",
+      "number": 80,
+      "title": "灵动 UI：视觉语言 + 动效系统 + Web/PWA → Capacitor Android",
       "state": "open",
-      "updated_at": "2026-10-22T16:03:25Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/71"
+      "updated_at": "2026-10-22T16:12:00Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/80"
     },
     {
-      "number": 70,
-      "title": "多 provider 路由：运行期切换 + 用户自定义回退链",
+      "number": 78,
+      "title": "容器化部署：Dockerfile + docker-compose + 健康检查 + 回滚脚本",
       "state": "open",
-      "updated_at": "2026-10-22T15:55:59Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/70"
+      "updated_at": "2026-10-22T16:11:48Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/78"
     },
     {
-      "number": 15,
-      "title": ".env 配置（DEFAULT_PROVIDER / DEFAULT_MODEL / 密钥），确认密钥不入库",
-      "state": "closed",
-      "updated_at": "2026-10-21T16:17:08Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/15"
+      "number": 57,
+      "title": "ETHICS.md（蒸馏他人须同意、禁止骚扰跟踪）+ SECURITY.md",
+      "state": "open",
+      "updated_at": "2026-10-22T16:11:46Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/57"
     },
     {
-      "number": 16,
-      "title": "开发容器内起 :8000：/api/status 通过 + /api/chat 最小对话成功",
-      "state": "closed",
-      "updated_at": "2026-10-21T16:11:59Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/16"
+      "number": 54,
+      "title": "审计日志 audit.jsonl（数据、时间、上送 token 数）",
+      "state": "open",
+      "updated_at": "2026-10-22T16:11:42Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/54"
     },
     {
-      "number": 14,
-      "title": "setup.sh（Linux 双路径）+ 依赖安装，记录平台差异与替代装法",
-      "state": "closed",
-      "updated_at": "2026-10-21T16:11:59Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/14"
+      "number": 73,
+      "title": "云端静态加密：SQLite / 备份 at-rest 加密 + 密钥轮换",
+      "state": "open",
+      "updated_at": "2026-10-22T16:11:39Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/73"
     }
   ]
 }
