@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:27:15Z",
+  "generated_at": "2026-10-22T22:44:10Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -63,7 +63,7 @@
     }
   ],
   "status": {
-    "Todo": 59,
+    "Todo": 61,
     "In Progress": 2,
     "Done": 18
   },
