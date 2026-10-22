@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:39:49Z",
+  "generated_at": "2026-10-22T19:27:15Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -69,6 +69,13 @@
   },
   "recent": [
     {
+      "number": 81,
+      "title": "接入层：provider 出站策略与 DNS rebinding 防护",
+      "state": "open",
+      "updated_at": "2026-10-22T16:42:01Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/81"
+    },
+    {
       "number": 80,
       "title": "灵动 UI：视觉语言 + 动效系统 + Web/PWA → Capacitor Android",
       "state": "open",
@@ -95,13 +102,6 @@
       "state": "open",
       "updated_at": "2026-10-22T16:11:42Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/54"
-    },
-    {
-      "number": 73,
-      "title": "云端静态加密：SQLite / 备份 at-rest 加密 + 密钥轮换",
-      "state": "open",
-      "updated_at": "2026-10-22T16:11:39Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/73"
     }
   ]
 }
