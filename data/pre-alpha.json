@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:44:10Z",
+  "generated_at": "2026-10-23T17:26:37Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 82,
-    "closed": 19,
-    "open": 63,
-    "percent": 23.2
+    "closed": 23,
+    "open": 59,
+    "percent": 28.0
   },
   "phases": [
     {
@@ -23,8 +23,8 @@
       "key": "P1",
       "label": "P1 后端跑通",
       "total": 16,
-      "closed": 7,
-      "percent": 43.8
+      "closed": 11,
+      "percent": 68.8
     },
     {
       "key": "P2",
@@ -63,45 +63,45 @@
     }
   ],
   "status": {
-    "Todo": 61,
-    "In Progress": 2,
-    "Done": 18
+    "Todo": 59,
+    "In Progress": 0,
+    "Done": 22
   },
   "recent": [
+    {
+      "number": 71,
+      "title": "BYOK Key 管理：加密存储、连通性校验、脱敏展示、撤销",
+      "state": "closed",
+      "updated_at": "2026-10-23T16:42:30Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/71"
+    },
     {
       "number": 81,
       "title": "接入层：provider 出站策略与 DNS rebinding 防护",
       "state": "open",
-      "updated_at": "2026-10-22T16:42:01Z",
+      "updated_at": "2026-10-23T16:21:43Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/81"
     },
     {
-      "number": 80,
-      "title": "灵动 UI：视觉语言 + 动效系统 + Web/PWA → Capacitor Android",
-      "state": "open",
-      "updated_at": "2026-10-22T16:12:00Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/80"
+      "number": 70,
+      "title": "多 provider 路由：运行期切换 + 用户自定义回退链",
+      "state": "closed",
+      "updated_at": "2026-10-23T16:21:41Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/70"
     },
     {
-      "number": 78,
-      "title": "容器化部署：Dockerfile + docker-compose + 健康检查 + 回滚脚本",
-      "state": "open",
-      "updated_at": "2026-10-22T16:11:48Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/78"
+      "number": 18,
+      "title": "记录每轮时延与 token 成本",
+      "state": "closed",
+      "updated_at": "2026-10-23T16:21:38Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/18"
     },
     {
-      "number": 57,
-      "title": "ETHICS.md（蒸馏他人须同意、禁止骚扰跟踪）+ SECURITY.md",
-      "state": "open",
-      "updated_at": "2026-10-22T16:11:46Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/57"
-    },
-    {
-      "number": 54,
-      "title": "审计日志 audit.jsonl（数据、时间、上送 token 数）",
-      "state": "open",
-      "updated_at": "2026-10-22T16:11:42Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/54"
+      "number": 17,
+      "title": "载入内置角色（luna / iris）跑 10 轮，保存输出作基线",
+      "state": "closed",
+      "updated_at": "2026-10-23T16:21:34Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/17"
     }
   ]
 }
