@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:26:37Z",
+  "generated_at": "2026-10-24T18:04:46Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 82,
-    "closed": 23,
-    "open": 59,
-    "percent": 28.0
+    "closed": 25,
+    "open": 57,
+    "percent": 30.5
   },
   "phases": [
     {
@@ -23,8 +23,8 @@
       "key": "P1",
       "label": "P1 后端跑通",
       "total": 16,
-      "closed": 11,
-      "percent": 68.8
+      "closed": 13,
+      "percent": 81.2
     },
     {
       "key": "P2",
@@ -63,11 +63,25 @@
     }
   ],
   "status": {
-    "Todo": 59,
+    "Todo": 57,
     "In Progress": 0,
-    "Done": 22
+    "Done": 24
   },
   "recent": [
+    {
+      "number": 69,
+      "title": "引擎状态外置：state_store 序列化 + 按需加载/持久化（CAS 版本）",
+      "state": "closed",
+      "updated_at": "2026-10-24T17:01:42Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/69"
+    },
+    {
+      "number": 66,
+      "title": "接入层：认证与会话管理（注册/登录、token 刷新、会话隔离）",
+      "state": "closed",
+      "updated_at": "2026-10-24T17:01:40Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/66"
+    },
     {
       "number": 71,
       "title": "BYOK Key 管理：加密存储、连通性校验、脱敏展示、撤销",
@@ -88,20 +102,6 @@
       "state": "closed",
       "updated_at": "2026-10-23T16:21:41Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/70"
-    },
-    {
-      "number": 18,
-      "title": "记录每轮时延与 token 成本",
-      "state": "closed",
-      "updated_at": "2026-10-23T16:21:38Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/18"
-    },
-    {
-      "number": 17,
-      "title": "载入内置角色（luna / iris）跑 10 轮，保存输出作基线",
-      "state": "closed",
-      "updated_at": "2026-10-23T16:21:34Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/17"
     }
   ]
 }
