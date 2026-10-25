@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T03:22:15Z",
+  "generated_at": "2026-10-25T17:43:17Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 82,
-    "closed": 28,
-    "open": 54,
-    "percent": 34.1
+    "closed": 34,
+    "open": 48,
+    "percent": 41.5
   },
   "phases": [
     {
@@ -30,8 +30,8 @@
       "key": "P2",
       "label": "P2 蒸馏流水线",
       "total": 10,
-      "closed": 0,
-      "percent": 0.0
+      "closed": 4,
+      "percent": 40.0
     },
     {
       "key": "P3",
@@ -58,50 +58,50 @@
       "key": "P6",
       "label": "P6 工程基建",
       "total": 8,
-      "closed": 1,
-      "percent": 12.5
+      "closed": 3,
+      "percent": 37.5
     }
   ],
   "status": {
-    "Todo": 54,
+    "Todo": 48,
     "In Progress": 0,
-    "Done": 27
+    "Done": 33
   },
   "recent": [
     {
-      "number": 68,
-      "title": "接入层：OpenAI 兼容端点（/v1/chat/completions → OpenHer /api/chat）",
+      "number": 25,
+      "title": "准备脱敏聊天记录样本 → tests/fixtures/",
       "state": "closed",
-      "updated_at": "2026-10-25T03:18:11Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/68"
+      "updated_at": "2026-10-25T16:03:37Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/25"
     },
     {
-      "number": 67,
-      "title": "接入层：限流与配额（按用户/IP 的 RPM/RPD，超额 429 + 降级）",
+      "number": 24,
+      "title": "盘点解析器（wechat/qq/social/photo）与缺失依赖（WeChatMsg/PyWxDump 导出格式）",
       "state": "closed",
-      "updated_at": "2026-10-25T02:55:05Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/67"
+      "updated_at": "2026-10-25T16:03:35Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/24"
     },
     {
-      "number": 81,
-      "title": "接入层：provider 出站策略与 DNS rebinding 防护",
+      "number": 62,
+      "title": "pre-commit + ruff.toml",
       "state": "closed",
-      "updated_at": "2026-10-25T02:26:56Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/81"
+      "updated_at": "2026-10-25T15:55:06Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/62"
     },
     {
-      "number": 69,
-      "title": "引擎状态外置：state_store 序列化 + 按需加载/持久化（CAS 版本）",
+      "number": 61,
+      "title": "GitHub Actions CI：ruff + pytest（3.11/3.12 矩阵）",
       "state": "closed",
-      "updated_at": "2026-10-24T17:01:42Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/69"
+      "updated_at": "2026-10-25T15:55:02Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/61"
     },
     {
-      "number": 66,
-      "title": "接入层：认证与会话管理（注册/登录、token 刷新、会话隔离）",
+      "number": 22,
+      "title": "读 SKILL.md + prompts/flows/create.md，整理 intake→analyz→build 时序",
       "state": "closed",
-      "updated_at": "2026-10-24T17:01:40Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/66"
+      "updated_at": "2026-10-25T15:54:59Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/22"
     }
   ]
 }
