@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jason Wang · Student developer</title>
-<meta name="description" content="Jason Wang — student developer. Games, tools, and open-source translation.">
+<title>Jason Wang · Companion AI &amp; student developer</title>
+<meta name="description" content="Jason Wang — student developer building a privacy-first companion AI, games, and tools for education.">
 <style>
   :root{
     --bg:#0d1117; --card:#161b22; --border:#30363d;
@@ -27,6 +27,8 @@
 
   h2{font-size:1.35rem;margin:48px 0 18px;padding-bottom:10px;border-bottom:1px solid var(--border)}
   .desc{color:var(--muted);font-size:.92rem;margin:-10px 0 18px}
+  .desc a{color:var(--accent);text-decoration:none}
+  .desc a:hover{text-decoration:underline}
 
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px}
   .card{
@@ -123,9 +125,9 @@
   <header>
     <h1>Hi there, I'm Jason Wang 👋</h1>
     <p class="sub">
-      🎓 Student developer &nbsp;·&nbsp; 🎮 Building small games and tools &nbsp;·&nbsp; 🌍 Open-source translator
+      🤖 Building a privacy-first companion AI &nbsp;·&nbsp; 🎮 Games &nbsp;·&nbsp; 🎓 EdTech &nbsp;·&nbsp; 🌍 Open source
     </p>
-    <p class="sub" style="margin-top:6px">学生开发者 · 做游戏和小工具 · 开源翻译贡献者</p>
+    <p class="sub" style="margin-top:6px">学生开发者 · 做隐私优先的陪伴型 AI、游戏与教育工具</p>
     <div class="links">
       <a href="https://github.com/jason081112">GitHub</a>
       <a href="mailto:58059436+jason081112@users.noreply.github.com">✉️ Email</a>
@@ -135,6 +137,13 @@
   <h2>👤 About <span style="color:var(--muted);font-size:.9rem;font-weight:400">/ 关于我</span></h2>
   <div class="about">
     <ul>
+      <li>
+        <span class="about-emoji">🤖</span>
+        <div class="about-body">
+          <p class="about-en"><b>companion AI builder</b> — building <a href="https://github.com/jason081112/Pre_Alpha">Pre_Alpha</a>, a privacy-first companion AI: distill chat logs into a persona, run the persona engine in the cloud, and expose it through Web/PWA and an OpenAI-compatible API. P1 backend is complete; the distillation pipeline is next.</p>
+          <p class="about-zh">做 Pre_Alpha：把聊天记录蒸馏成一个人格，引擎在云端运行，Web/PWA 打开即聊；原始聊天记录不上传、不入库。P1 后端已跑通，接下来做蒸馏流水线。</p>
+        </div>
+      </li>
       <li>
         <span class="about-emoji">🎓</span>
         <div class="about-body">
@@ -161,7 +170,8 @@
   </div>
 
   <h2>🚧 Pre_Alpha <span style="color:var(--muted);font-size:.9rem;font-weight:400">/ 开发进度</span></h2>
-  <p class="desc">Cloud-first companion AI — 把聊天记录蒸馏成一个人格，引擎在云端运行，Web/PWA 打开即聊。隐私优先：原始记录不入库、可导出、可删除。进度取自仓库 issue 与 Project 看板，每 15 分钟自动同步。</p>
+  <p class="desc">Privacy-first companion AI — 把聊天记录蒸馏成一个人格，引擎在云端运行，Web/PWA 打开即聊。原始聊天记录不上传、不入库；P1 后端已跑通（认证、限流、路由、状态外置、OpenAI 兼容端点），下一步 P2 蒸馏流水线。<br>
+  <a href="https://github.com/jason081112/Pre_Alpha">Repo →</a> · <a href="https://github.com/jason081112/Pre_Alpha/blob/main/docs/p1-68-openai-compat.md">OpenAI 兼容端点 →</a> · 进度取自仓库 issue 与 Project 看板，每 15 分钟自动同步。</p>
   <div id="prealpha" class="pa">
     <p class="pa-fallback">加载进度数据…</p>
   </div>

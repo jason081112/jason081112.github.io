@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T18:04:46Z",
+  "generated_at": "2026-10-25T03:22:15Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 82,
-    "closed": 25,
-    "open": 57,
-    "percent": 30.5
+    "closed": 28,
+    "open": 54,
+    "percent": 34.1
   },
   "phases": [
     {
@@ -23,8 +23,8 @@
       "key": "P1",
       "label": "P1 后端跑通",
       "total": 16,
-      "closed": 13,
-      "percent": 81.2
+      "closed": 16,
+      "percent": 100.0
     },
     {
       "key": "P2",
@@ -63,11 +63,32 @@
     }
   ],
   "status": {
-    "Todo": 57,
+    "Todo": 54,
     "In Progress": 0,
-    "Done": 24
+    "Done": 27
   },
   "recent": [
+    {
+      "number": 68,
+      "title": "接入层：OpenAI 兼容端点（/v1/chat/completions → OpenHer /api/chat）",
+      "state": "closed",
+      "updated_at": "2026-10-25T03:18:11Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/68"
+    },
+    {
+      "number": 67,
+      "title": "接入层：限流与配额（按用户/IP 的 RPM/RPD，超额 429 + 降级）",
+      "state": "closed",
+      "updated_at": "2026-10-25T02:55:05Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/67"
+    },
+    {
+      "number": 81,
+      "title": "接入层：provider 出站策略与 DNS rebinding 防护",
+      "state": "closed",
+      "updated_at": "2026-10-25T02:26:56Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/81"
+    },
     {
       "number": 69,
       "title": "引擎状态外置：state_store 序列化 + 按需加载/持久化（CAS 版本）",
@@ -81,27 +102,6 @@
       "state": "closed",
       "updated_at": "2026-10-24T17:01:40Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/66"
-    },
-    {
-      "number": 71,
-      "title": "BYOK Key 管理：加密存储、连通性校验、脱敏展示、撤销",
-      "state": "closed",
-      "updated_at": "2026-10-23T16:42:30Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/71"
-    },
-    {
-      "number": 81,
-      "title": "接入层：provider 出站策略与 DNS rebinding 防护",
-      "state": "open",
-      "updated_at": "2026-10-23T16:21:43Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/81"
-    },
-    {
-      "number": 70,
-      "title": "多 provider 路由：运行期切换 + 用户自定义回退链",
-      "state": "closed",
-      "updated_at": "2026-10-23T16:21:41Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/70"
     }
   ]
 }
