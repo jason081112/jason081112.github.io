@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:43:17Z",
+  "generated_at": "2026-10-26T16:14:58Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 82,
-    "closed": 34,
-    "open": 48,
-    "percent": 41.5
+    "closed": 36,
+    "open": 46,
+    "percent": 43.9
   },
   "phases": [
     {
@@ -30,8 +30,8 @@
       "key": "P2",
       "label": "P2 蒸馏流水线",
       "total": 10,
-      "closed": 4,
-      "percent": 40.0
+      "closed": 6,
+      "percent": 60.0
     },
     {
       "key": "P3",
@@ -63,11 +63,25 @@
     }
   ],
   "status": {
-    "Todo": 48,
+    "Todo": 46,
     "In Progress": 0,
-    "Done": 33
+    "Done": 35
   },
   "recent": [
+    {
+      "number": 27,
+      "title": "跑通 relationship 家族（陪伴场景主用）产出 Persona Skill",
+      "state": "closed",
+      "updated_at": "2026-10-26T15:43:36Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/27"
+    },
+    {
+      "number": 26,
+      "title": "跑通 colleague 家族全流程",
+      "state": "closed",
+      "updated_at": "2026-10-26T15:43:32Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/26"
+    },
     {
       "number": 25,
       "title": "准备脱敏聊天记录样本 → tests/fixtures/",
@@ -88,20 +102,6 @@
       "state": "closed",
       "updated_at": "2026-10-25T15:55:06Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/62"
-    },
-    {
-      "number": 61,
-      "title": "GitHub Actions CI：ruff + pytest（3.11/3.12 矩阵）",
-      "state": "closed",
-      "updated_at": "2026-10-25T15:55:02Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/61"
-    },
-    {
-      "number": 22,
-      "title": "读 SKILL.md + prompts/flows/create.md，整理 intake→analyz→build 时序",
-      "state": "closed",
-      "updated_at": "2026-10-25T15:54:59Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/22"
     }
   ]
 }
