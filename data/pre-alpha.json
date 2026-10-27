@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:14:58Z",
+  "generated_at": "2026-10-27T18:28:13Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 82,
-    "closed": 36,
-    "open": 46,
-    "percent": 43.9
+    "closed": 37,
+    "open": 45,
+    "percent": 45.1
   },
   "phases": [
     {
@@ -30,8 +30,8 @@
       "key": "P2",
       "label": "P2 蒸馏流水线",
       "total": 10,
-      "closed": 6,
-      "percent": 60.0
+      "closed": 7,
+      "percent": 70.0
     },
     {
       "key": "P3",
@@ -63,11 +63,25 @@
     }
   ],
   "status": {
-    "Todo": 46,
+    "Todo": 45,
     "In Progress": 0,
-    "Done": 35
+    "Done": 36
   },
   "recent": [
+    {
+      "number": 23,
+      "title": "安装为本机可发现的 Skill，验证可触发",
+      "state": "closed",
+      "updated_at": "2026-10-27T16:00:16Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/23"
+    },
+    {
+      "number": 30,
+      "title": "Distilly 输出 → 我方内部 schema 字段对照表",
+      "state": "open",
+      "updated_at": "2026-10-27T16:00:15Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/30"
+    },
     {
       "number": 27,
       "title": "跑通 relationship 家族（陪伴场景主用）产出 Persona Skill",
@@ -88,20 +102,6 @@
       "state": "closed",
       "updated_at": "2026-10-25T16:03:37Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/25"
-    },
-    {
-      "number": 24,
-      "title": "盘点解析器（wechat/qq/social/photo）与缺失依赖（WeChatMsg/PyWxDump 导出格式）",
-      "state": "closed",
-      "updated_at": "2026-10-25T16:03:35Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/24"
-    },
-    {
-      "number": 62,
-      "title": "pre-commit + ruff.toml",
-      "state": "closed",
-      "updated_at": "2026-10-25T15:55:06Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/62"
     }
   ]
 }
