@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:28:13Z",
+  "generated_at": "2026-10-28T19:51:23Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 82,
-    "closed": 37,
-    "open": 45,
-    "percent": 45.1
+    "closed": 38,
+    "open": 44,
+    "percent": 46.3
   },
   "phases": [
     {
@@ -30,8 +30,8 @@
       "key": "P2",
       "label": "P2 蒸馏流水线",
       "total": 10,
-      "closed": 7,
-      "percent": 70.0
+      "closed": 8,
+      "percent": 80.0
     },
     {
       "key": "P3",
@@ -63,11 +63,18 @@
     }
   ],
   "status": {
-    "Todo": 45,
+    "Todo": 44,
     "In Progress": 0,
-    "Done": 36
+    "Done": 37
   },
   "recent": [
+    {
+      "number": 28,
+      "title": "产出物结构归档：六层人格 / 口头禅 / 纠错层字段清单",
+      "state": "closed",
+      "updated_at": "2026-10-28T16:17:36Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/28"
+    },
     {
       "number": 23,
       "title": "安装为本机可发现的 Skill，验证可触发",
@@ -95,13 +102,6 @@
       "state": "closed",
       "updated_at": "2026-10-26T15:43:32Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/26"
-    },
-    {
-      "number": 25,
-      "title": "准备脱敏聊天记录样本 → tests/fixtures/",
-      "state": "closed",
-      "updated_at": "2026-10-25T16:03:37Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/25"
     }
   ]
 }
