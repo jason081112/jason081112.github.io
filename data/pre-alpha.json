@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T19:51:23Z",
+  "generated_at": "2026-10-29T16:12:51Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 82,
-    "closed": 38,
-    "open": 44,
-    "percent": 46.3
+    "closed": 39,
+    "open": 43,
+    "percent": 47.6
   },
   "phases": [
     {
@@ -30,8 +30,8 @@
       "key": "P2",
       "label": "P2 蒸馏流水线",
       "total": 10,
-      "closed": 8,
-      "percent": 80.0
+      "closed": 9,
+      "percent": 90.0
     },
     {
       "key": "P3",
@@ -63,11 +63,18 @@
     }
   ],
   "status": {
-    "Todo": 44,
+    "Todo": 43,
     "In Progress": 0,
-    "Done": 37
+    "Done": 38
   },
   "recent": [
+    {
+      "number": 30,
+      "title": "Distilly 输出 → 我方内部 schema 字段对照表",
+      "state": "closed",
+      "updated_at": "2026-10-29T16:06:39Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/30"
+    },
     {
       "number": 28,
       "title": "产出物结构归档：六层人格 / 口头禅 / 纠错层字段清单",
@@ -81,13 +88,6 @@
       "state": "closed",
       "updated_at": "2026-10-27T16:00:16Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/23"
-    },
-    {
-      "number": 30,
-      "title": "Distilly 输出 → 我方内部 schema 字段对照表",
-      "state": "open",
-      "updated_at": "2026-10-27T16:00:15Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/30"
     },
     {
       "number": 27,
