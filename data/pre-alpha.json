@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:36:14Z",
+  "generated_at": "2026-10-30T15:16:55Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 82,
-    "closed": 39,
-    "open": 43,
-    "percent": 47.6
+    "closed": 40,
+    "open": 42,
+    "percent": 48.8
   },
   "phases": [
     {
@@ -30,8 +30,8 @@
       "key": "P2",
       "label": "P2 蒸馏流水线",
       "total": 10,
-      "closed": 9,
-      "percent": 90.0
+      "closed": 10,
+      "percent": 100.0
     },
     {
       "key": "P3",
@@ -63,16 +63,16 @@
     }
   ],
   "status": {
-    "Todo": 43,
+    "Todo": 42,
     "In Progress": 0,
-    "Done": 38
+    "Done": 39
   },
   "recent": [
     {
       "number": 29,
       "title": "质量基线：同一数据跑 3 次，评估稳定性与幻觉点",
-      "state": "open",
-      "updated_at": "2026-10-30T14:35:44Z",
+      "state": "closed",
+      "updated_at": "2026-10-30T14:52:50Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/29"
     },
     {
