@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:12:51Z",
+  "generated_at": "2026-10-30T14:36:14Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -69,6 +69,13 @@
   },
   "recent": [
     {
+      "number": 29,
+      "title": "质量基线：同一数据跑 3 次，评估稳定性与幻觉点",
+      "state": "open",
+      "updated_at": "2026-10-30T14:35:44Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/29"
+    },
+    {
       "number": 30,
       "title": "Distilly 输出 → 我方内部 schema 字段对照表",
       "state": "closed",
@@ -95,13 +102,6 @@
       "state": "closed",
       "updated_at": "2026-10-26T15:43:36Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/27"
-    },
-    {
-      "number": 26,
-      "title": "跑通 colleague 家族全流程",
-      "state": "closed",
-      "updated_at": "2026-10-26T15:43:32Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/26"
     }
   ]
 }
