@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T15:43:57Z",
+  "generated_at": "2026-10-30T16:32:24Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 86,
-    "closed": 42,
-    "open": 44,
-    "percent": 48.8
+    "closed": 45,
+    "open": 41,
+    "percent": 52.3
   },
   "phases": [
     {
@@ -37,15 +37,15 @@
       "key": "P3",
       "label": "P3 桥接层",
       "total": 14,
-      "closed": 2,
-      "percent": 14.3
+      "closed": 4,
+      "percent": 28.6
     },
     {
       "key": "P4",
       "label": "P4 交互层",
       "total": 14,
-      "closed": 0,
-      "percent": 0.0
+      "closed": 1,
+      "percent": 7.1
     },
     {
       "key": "P5",
@@ -63,45 +63,45 @@
     }
   ],
   "status": {
-    "Todo": 44,
-    "In Progress": 0,
-    "Done": 41
+    "Todo": 39,
+    "In Progress": 2,
+    "Done": 44
   },
   "recent": [
     {
-      "number": 85,
-      "title": "feat(persona): 人格创建向导（CLI + Web/PWA）",
-      "state": "open",
-      "updated_at": "2026-10-30T15:29:46Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/85"
+      "number": 34,
+      "title": "表达/社交/冲突信号 → drive_baseline 5 维反推",
+      "state": "closed",
+      "updated_at": "2026-10-30T16:23:38Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/34"
     },
     {
-      "number": 83,
-      "title": "feat(persona): 人格创建/编辑 API 契约与校验",
-      "state": "open",
-      "updated_at": "2026-10-30T15:29:42Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/83"
+      "number": 33,
+      "title": "特征 → 13 个 engine_params 映射启发式 v1（人工标定）",
+      "state": "closed",
+      "updated_at": "2026-10-30T16:23:35Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/33"
     },
     {
       "number": 86,
       "title": "feat(persona): 人格体检（结构/加载/风格探针/隐私）",
       "state": "open",
-      "updated_at": "2026-10-30T15:29:33Z",
+      "updated_at": "2026-10-30T16:08:36Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/86"
     },
     {
-      "number": 84,
-      "title": "feat(persona): 每用户人格存储、隔离与配额",
+      "number": 85,
+      "title": "feat(persona): 人格创建向导（CLI + Web/PWA）",
       "state": "open",
-      "updated_at": "2026-10-30T15:29:26Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/84"
+      "updated_at": "2026-10-30T15:57:35Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/85"
     },
     {
-      "number": 32,
-      "title": "profile2soul.py：身份字段(name/age/gender/mbti) → SOUL.md frontmatter",
+      "number": 83,
+      "title": "feat(persona): 人格创建/编辑 API 契约与校验",
       "state": "closed",
-      "updated_at": "2026-10-30T15:23:25Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/32"
+      "updated_at": "2026-10-30T15:44:13Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/83"
     }
   ]
 }
