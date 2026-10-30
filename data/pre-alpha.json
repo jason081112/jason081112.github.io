@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-30T15:16:55Z",
+  "generated_at": "2026-10-30T15:43:57Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 82,
-    "closed": 40,
-    "open": 42,
+    "total": 86,
+    "closed": 42,
+    "open": 44,
     "percent": 48.8
   },
   "phases": [
@@ -37,20 +37,20 @@
       "key": "P3",
       "label": "P3 桥接层",
       "total": 14,
-      "closed": 0,
-      "percent": 0.0
+      "closed": 2,
+      "percent": 14.3
     },
     {
       "key": "P4",
       "label": "P4 交互层",
-      "total": 11,
+      "total": 14,
       "closed": 0,
       "percent": 0.0
     },
     {
       "key": "P5",
       "label": "P5 隐私合规",
-      "total": 12,
+      "total": 13,
       "closed": 0,
       "percent": 0.0
     },
@@ -63,45 +63,45 @@
     }
   ],
   "status": {
-    "Todo": 42,
+    "Todo": 44,
     "In Progress": 0,
-    "Done": 39
+    "Done": 41
   },
   "recent": [
     {
-      "number": 29,
-      "title": "质量基线：同一数据跑 3 次，评估稳定性与幻觉点",
-      "state": "closed",
-      "updated_at": "2026-10-30T14:52:50Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/29"
+      "number": 85,
+      "title": "feat(persona): 人格创建向导（CLI + Web/PWA）",
+      "state": "open",
+      "updated_at": "2026-10-30T15:29:46Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/85"
     },
     {
-      "number": 30,
-      "title": "Distilly 输出 → 我方内部 schema 字段对照表",
-      "state": "closed",
-      "updated_at": "2026-10-29T16:06:39Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/30"
+      "number": 83,
+      "title": "feat(persona): 人格创建/编辑 API 契约与校验",
+      "state": "open",
+      "updated_at": "2026-10-30T15:29:42Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/83"
     },
     {
-      "number": 28,
-      "title": "产出物结构归档：六层人格 / 口头禅 / 纠错层字段清单",
-      "state": "closed",
-      "updated_at": "2026-10-28T16:17:36Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/28"
+      "number": 86,
+      "title": "feat(persona): 人格体检（结构/加载/风格探针/隐私）",
+      "state": "open",
+      "updated_at": "2026-10-30T15:29:33Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/86"
     },
     {
-      "number": 23,
-      "title": "安装为本机可发现的 Skill，验证可触发",
-      "state": "closed",
-      "updated_at": "2026-10-27T16:00:16Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/23"
+      "number": 84,
+      "title": "feat(persona): 每用户人格存储、隔离与配额",
+      "state": "open",
+      "updated_at": "2026-10-30T15:29:26Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/84"
     },
     {
-      "number": 27,
-      "title": "跑通 relationship 家族（陪伴场景主用）产出 Persona Skill",
+      "number": 32,
+      "title": "profile2soul.py：身份字段(name/age/gender/mbti) → SOUL.md frontmatter",
       "state": "closed",
-      "updated_at": "2026-10-26T15:43:36Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/27"
+      "updated_at": "2026-10-30T15:23:25Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/32"
     }
   ]
 }
