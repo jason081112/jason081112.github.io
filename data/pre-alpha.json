@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T08:50:52Z",
+  "generated_at": "2026-10-31T13:54:04Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 87,
-    "closed": 46,
-    "open": 41,
-    "percent": 52.9
+    "closed": 51,
+    "open": 36,
+    "percent": 58.6
   },
   "phases": [
     {
@@ -37,8 +37,8 @@
       "key": "P3",
       "label": "P3 桥接层",
       "total": 15,
-      "closed": 5,
-      "percent": 33.3
+      "closed": 10,
+      "percent": 66.7
     },
     {
       "key": "P4",
@@ -63,45 +63,45 @@
     }
   ],
   "status": {
-    "Todo": 39,
+    "Todo": 34,
     "In Progress": 2,
-    "Done": 45
+    "Done": 50
   },
   "recent": [
     {
-      "number": 87,
-      "title": "feat(seeds): 全角色 seed 素材（统一格式与单一情境表，小岚 8 条为样板）",
-      "state": "open",
-      "updated_at": "2026-10-31T04:47:40Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/87"
-    },
-    {
-      "number": 35,
-      "title": "expression DNA + 口头禅 → style_memory 种子批量注入",
+      "number": 38,
+      "title": "情绪触发·冲突·修复模式 → critic 输入特征 + phase_threshold 校准",
       "state": "closed",
-      "updated_at": "2026-10-31T04:35:34Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/35"
+      "updated_at": "2026-10-31T13:52:49Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/38"
     },
     {
-      "number": 34,
-      "title": "表达/社交/冲突信号 → drive_baseline 5 维反推",
+      "number": 43,
+      "title": "golden 测试：3 份 fixture → SOUL/SHELL 快照回归",
       "state": "closed",
-      "updated_at": "2026-10-30T16:23:38Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/34"
+      "updated_at": "2026-10-31T13:46:47Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/43"
     },
     {
-      "number": 33,
-      "title": "特征 → 13 个 engine_params 映射启发式 v1（人工标定）",
+      "number": 41,
+      "title": "一致性校验：生成物能被 loader.py 加载、persona/store.py 注册成功",
       "state": "closed",
-      "updated_at": "2026-10-30T16:23:35Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/33"
+      "updated_at": "2026-10-31T13:26:31Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/41"
     },
     {
-      "number": 86,
-      "title": "feat(persona): 人格体检（结构/加载/风格探针/隐私）",
-      "state": "open",
-      "updated_at": "2026-10-30T16:08:36Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/86"
+      "number": 42,
+      "title": "CLI：alpha profile2soul <dir> 一键生成 + dry-run diff",
+      "state": "closed",
+      "updated_at": "2026-10-31T13:15:40Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/42"
+    },
+    {
+      "number": 40,
+      "title": "SHELL.md 生成器（依 P0-2 结论决定是否启用）",
+      "state": "closed",
+      "updated_at": "2026-10-31T13:04:58Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/40"
     }
   ]
 }
