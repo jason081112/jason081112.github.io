@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T13:54:04Z",
+  "generated_at": "2026-10-31T14:57:07Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 87,
-    "closed": 51,
-    "open": 36,
-    "percent": 58.6
+    "closed": 53,
+    "open": 34,
+    "percent": 60.9
   },
   "phases": [
     {
@@ -37,8 +37,8 @@
       "key": "P3",
       "label": "P3 桥接层",
       "total": 15,
-      "closed": 10,
-      "percent": 66.7
+      "closed": 12,
+      "percent": 80.0
     },
     {
       "key": "P4",
@@ -63,11 +63,25 @@
     }
   ],
   "status": {
-    "Todo": 34,
+    "Todo": 32,
     "In Progress": 2,
-    "Done": 50
+    "Done": 52
   },
   "recent": [
+    {
+      "number": 36,
+      "title": "事实/共同记忆 → SQLite FTS5 写入（role/时间戳/source）",
+      "state": "closed",
+      "updated_at": "2026-10-31T14:33:19Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/36"
+    },
+    {
+      "number": 39,
+      "title": "纠错层 → 运行期可写约束/记忆条目",
+      "state": "closed",
+      "updated_at": "2026-10-31T13:57:52Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/39"
+    },
     {
       "number": 38,
       "title": "情绪触发·冲突·修复模式 → critic 输入特征 + phase_threshold 校准",
@@ -88,20 +102,6 @@
       "state": "closed",
       "updated_at": "2026-10-31T13:26:31Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/41"
-    },
-    {
-      "number": 42,
-      "title": "CLI：alpha profile2soul <dir> 一键生成 + dry-run diff",
-      "state": "closed",
-      "updated_at": "2026-10-31T13:15:40Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/42"
-    },
-    {
-      "number": 40,
-      "title": "SHELL.md 生成器（依 P0-2 结论决定是否启用）",
-      "state": "closed",
-      "updated_at": "2026-10-31T13:04:58Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/40"
     }
   ]
 }
