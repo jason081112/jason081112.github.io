@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T14:57:07Z",
+  "generated_at": "2026-11-01T04:26:11Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 87,
-    "closed": 53,
-    "open": 34,
-    "percent": 60.9
+    "closed": 54,
+    "open": 33,
+    "percent": 62.1
   },
   "phases": [
     {
@@ -37,8 +37,8 @@
       "key": "P3",
       "label": "P3 桥接层",
       "total": 15,
-      "closed": 12,
-      "percent": 80.0
+      "closed": 13,
+      "percent": 86.7
     },
     {
       "key": "P4",
@@ -63,11 +63,18 @@
     }
   ],
   "status": {
-    "Todo": 32,
+    "Todo": 31,
     "In Progress": 2,
-    "Done": 52
+    "Done": 53
   },
   "recent": [
+    {
+      "number": 44,
+      "title": "端到端验收：20 轮对话，语气/口头禅/冲突反应与原材料比对",
+      "state": "closed",
+      "updated_at": "2026-11-01T03:54:43Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/44"
+    },
     {
       "number": 36,
       "title": "事实/共同记忆 → SQLite FTS5 写入（role/时间戳/source）",
@@ -95,13 +102,6 @@
       "state": "closed",
       "updated_at": "2026-10-31T13:46:47Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/43"
-    },
-    {
-      "number": 41,
-      "title": "一致性校验：生成物能被 loader.py 加载、persona/store.py 注册成功",
-      "state": "closed",
-      "updated_at": "2026-10-31T13:26:31Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/41"
     }
   ]
 }
