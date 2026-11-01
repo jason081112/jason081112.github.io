@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-01T08:06:14Z",
+  "generated_at": "2026-11-01T15:49:25Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 88,
-    "closed": 54,
+    "total": 89,
+    "closed": 55,
     "open": 34,
-    "percent": 61.4
+    "percent": 61.8
   },
   "phases": [
     {
@@ -36,9 +36,9 @@
     {
       "key": "P3",
       "label": "P3 桥接层",
-      "total": 16,
-      "closed": 13,
-      "percent": 81.2
+      "total": 17,
+      "closed": 14,
+      "percent": 82.4
     },
     {
       "key": "P4",
@@ -63,17 +63,31 @@
     }
   ],
   "status": {
-    "Todo": 32,
-    "In Progress": 2,
-    "Done": 53
+    "Todo": 31,
+    "In Progress": 3,
+    "Done": 54
   },
   "recent": [
     {
+      "number": 89,
+      "title": "feat(e2e): 验收协议与判据重建 —— 按引擎原生多段协议，判据只用可靠信号",
+      "state": "open",
+      "updated_at": "2026-11-01T15:42:52Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/89"
+    },
+    {
       "number": 87,
       "title": "feat(seeds): 全角色 seed 素材（统一格式与单一情境表，小岚 8 条为样板）",
-      "state": "open",
-      "updated_at": "2026-11-01T06:35:46Z",
+      "state": "closed",
+      "updated_at": "2026-11-01T15:41:02Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/87"
+    },
+    {
+      "number": 44,
+      "title": "端到端验收：20 轮对话，语气/口头禅/冲突反应与原材料比对",
+      "state": "closed",
+      "updated_at": "2026-11-01T15:27:52Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/44"
     },
     {
       "number": 88,
@@ -83,25 +97,11 @@
       "url": "https://github.com/jason081112/Pre_Alpha/issues/88"
     },
     {
-      "number": 44,
-      "title": "端到端验收：20 轮对话，语气/口头禅/冲突反应与原材料比对",
-      "state": "closed",
-      "updated_at": "2026-11-01T06:02:35Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/44"
-    },
-    {
       "number": 36,
       "title": "事实/共同记忆 → SQLite FTS5 写入（role/时间戳/source）",
       "state": "closed",
       "updated_at": "2026-10-31T14:33:19Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/36"
-    },
-    {
-      "number": 39,
-      "title": "纠错层 → 运行期可写约束/记忆条目",
-      "state": "closed",
-      "updated_at": "2026-10-31T13:57:52Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/39"
     }
   ]
 }
