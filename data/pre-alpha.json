@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-01T16:34:46Z",
+  "generated_at": "2026-11-02T16:29:09Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 90,
-    "closed": 58,
+    "total": 92,
+    "closed": 60,
     "open": 32,
-    "percent": 64.4
+    "percent": 65.2
   },
   "phases": [
     {
@@ -22,8 +22,8 @@
     {
       "key": "P1",
       "label": "P1 后端跑通",
-      "total": 16,
-      "closed": 16,
+      "total": 18,
+      "closed": 18,
       "percent": 100.0
     },
     {
@@ -43,14 +43,14 @@
     {
       "key": "P4",
       "label": "P4 交互层",
-      "total": 14,
+      "total": 15,
       "closed": 1,
-      "percent": 7.1
+      "percent": 6.7
     },
     {
       "key": "P5",
       "label": "P5 隐私合规",
-      "total": 13,
+      "total": 12,
       "closed": 0,
       "percent": 0.0
     },
@@ -65,9 +65,30 @@
   "status": {
     "Todo": 30,
     "In Progress": 2,
-    "Done": 57
+    "Done": 59
   },
   "recent": [
+    {
+      "number": 92,
+      "title": "chore(config): provider 配置外置 —— 别让每次 fetch 都手改 vendor 里的 api.yaml",
+      "state": "closed",
+      "updated_at": "2026-11-02T16:28:07Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/92"
+    },
+    {
+      "number": 91,
+      "title": "fix(vendor): 补齐 OpenHer API 层 —— minimal_fetch 漏了 main.py 与 agent/skills",
+      "state": "closed",
+      "updated_at": "2026-11-02T16:22:24Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/91"
+    },
+    {
+      "number": 84,
+      "title": "feat(persona): 每用户人格存储、隔离与配额",
+      "state": "open",
+      "updated_at": "2026-11-02T15:25:30Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/84"
+    },
     {
       "number": 37,
       "title": "EverOS episodes 灌入（开关式，无 key 自动跳过）",
@@ -81,27 +102,6 @@
       "state": "closed",
       "updated_at": "2026-11-01T16:21:41Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/89"
-    },
-    {
-      "number": 88,
-      "title": "feat(prompt): few-shot 注入方式 —— mono 落地与后续去重",
-      "state": "closed",
-      "updated_at": "2026-11-01T16:21:39Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/88"
-    },
-    {
-      "number": 90,
-      "title": "chore(seeds): 素材增补（条件触发，不排期）",
-      "state": "open",
-      "updated_at": "2026-11-01T16:21:08Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/90"
-    },
-    {
-      "number": 87,
-      "title": "feat(seeds): 全角色 seed 素材（统一格式与单一情境表，小岚 8 条为样板）",
-      "state": "closed",
-      "updated_at": "2026-11-01T15:41:02Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/87"
     }
   ]
 }
