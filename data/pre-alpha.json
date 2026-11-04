@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:29:09Z",
+  "generated_at": "2026-11-04T17:57:42Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 92,
-    "closed": 60,
-    "open": 32,
-    "percent": 65.2
+    "closed": 61,
+    "open": 31,
+    "percent": 66.3
   },
   "phases": [
     {
@@ -44,8 +44,8 @@
       "key": "P4",
       "label": "P4 交互层",
       "total": 15,
-      "closed": 1,
-      "percent": 6.7
+      "closed": 2,
+      "percent": 13.3
     },
     {
       "key": "P5",
@@ -63,11 +63,18 @@
     }
   ],
   "status": {
-    "Todo": 30,
+    "Todo": 29,
     "In Progress": 2,
-    "Done": 59
+    "Done": 60
   },
   "recent": [
+    {
+      "number": 45,
+      "title": "梳理 main.py REST/WebSocket 路由清单",
+      "state": "closed",
+      "updated_at": "2026-11-04T14:43:11Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/45"
+    },
     {
       "number": 92,
       "title": "chore(config): provider 配置外置 —— 别让每次 fetch 都手改 vendor 里的 api.yaml",
@@ -95,13 +102,6 @@
       "state": "closed",
       "updated_at": "2026-11-01T16:21:43Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/37"
-    },
-    {
-      "number": 89,
-      "title": "feat(e2e): 验收协议与判据重建 —— 按引擎原生多段协议，判据只用可靠信号",
-      "state": "closed",
-      "updated_at": "2026-11-01T16:21:41Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/89"
     }
   ]
 }
