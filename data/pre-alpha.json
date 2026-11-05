@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-05T14:55:13Z",
+  "generated_at": "2026-11-05T19:05:26Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 93,
-    "closed": 61,
-    "open": 32,
+    "total": 96,
+    "closed": 63,
+    "open": 33,
     "percent": 65.6
   },
   "phases": [
@@ -43,9 +43,9 @@
     {
       "key": "P4",
       "label": "P4 交互层",
-      "total": 16,
-      "closed": 2,
-      "percent": 12.5
+      "total": 19,
+      "closed": 4,
+      "percent": 21.1
     },
     {
       "key": "P5",
@@ -63,45 +63,45 @@
     }
   ],
   "status": {
-    "Todo": 30,
+    "Todo": 31,
     "In Progress": 2,
-    "Done": 60
+    "Done": 62
   },
   "recent": [
     {
-      "number": 93,
-      "title": "feat(shell): 引擎代理层 —— HTTP 转发 + WS 透传（保留防抖与分块）",
+      "number": 46,
+      "title": "极简 Web 聊天页（单文件 HTML 连 :8000，替代 macOS 客户端）",
       "state": "open",
-      "updated_at": "2026-11-05T14:47:39Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/93"
+      "updated_at": "2026-11-05T16:16:27Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/46"
     },
     {
-      "number": 45,
-      "title": "梳理 main.py REST/WebSocket 路由清单",
-      "state": "closed",
-      "updated_at": "2026-11-04T14:43:11Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/45"
-    },
-    {
-      "number": 92,
-      "title": "chore(config): provider 配置外置 —— 别让每次 fetch 都手改 vendor 里的 api.yaml",
-      "state": "closed",
-      "updated_at": "2026-11-02T16:28:07Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/92"
-    },
-    {
-      "number": 91,
-      "title": "fix(vendor): 补齐 OpenHer API 层 —— minimal_fetch 漏了 main.py 与 agent/skills",
-      "state": "closed",
-      "updated_at": "2026-11-02T16:22:24Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/91"
-    },
-    {
-      "number": 84,
-      "title": "feat(persona): 每用户人格存储、隔离与配额",
+      "number": 80,
+      "title": "灵动 UI：视觉语言 + 动效系统 + Web/PWA → Capacitor Android",
       "state": "open",
-      "updated_at": "2026-11-02T15:25:30Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/84"
+      "updated_at": "2026-11-05T16:16:19Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/80"
+    },
+    {
+      "number": 96,
+      "title": "feat(shell): 流式多段逐条推送 —— 恢复「连发消息」的段间停顿",
+      "state": "open",
+      "updated_at": "2026-11-05T16:16:10Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/96"
+    },
+    {
+      "number": 95,
+      "title": "feat(ui): 渲染层节奏调度器 —— 打字速度/停顿/逐条气泡（重音不做）",
+      "state": "open",
+      "updated_at": "2026-11-05T16:16:00Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/95"
+    },
+    {
+      "number": 94,
+      "title": "feat(shell): 真流式 WS 端点 —— 上游 ws_send 是死代码，首字延迟=全文生成时间",
+      "state": "closed",
+      "updated_at": "2026-11-05T15:13:43Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/94"
     }
   ]
 }
