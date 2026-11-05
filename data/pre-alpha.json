@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-04T17:57:42Z",
+  "generated_at": "2026-11-05T14:55:13Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 92,
+    "total": 93,
     "closed": 61,
-    "open": 31,
-    "percent": 66.3
+    "open": 32,
+    "percent": 65.6
   },
   "phases": [
     {
@@ -43,9 +43,9 @@
     {
       "key": "P4",
       "label": "P4 交互层",
-      "total": 15,
+      "total": 16,
       "closed": 2,
-      "percent": 13.3
+      "percent": 12.5
     },
     {
       "key": "P5",
@@ -63,11 +63,18 @@
     }
   ],
   "status": {
-    "Todo": 29,
+    "Todo": 30,
     "In Progress": 2,
     "Done": 60
   },
   "recent": [
+    {
+      "number": 93,
+      "title": "feat(shell): 引擎代理层 —— HTTP 转发 + WS 透传（保留防抖与分块）",
+      "state": "open",
+      "updated_at": "2026-11-05T14:47:39Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/93"
+    },
     {
       "number": 45,
       "title": "梳理 main.py REST/WebSocket 路由清单",
@@ -95,13 +102,6 @@
       "state": "open",
       "updated_at": "2026-11-02T15:25:30Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/84"
-    },
-    {
-      "number": 37,
-      "title": "EverOS episodes 灌入（开关式，无 key 自动跳过）",
-      "state": "closed",
-      "updated_at": "2026-11-01T16:21:43Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/37"
     }
   ]
 }
