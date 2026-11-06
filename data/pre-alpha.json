@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T19:05:26Z",
+  "generated_at": "2026-11-06T20:51:32Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 96,
-    "closed": 63,
-    "open": 33,
-    "percent": 65.6
+    "closed": 65,
+    "open": 31,
+    "percent": 67.7
   },
   "phases": [
     {
@@ -44,8 +44,8 @@
       "key": "P4",
       "label": "P4 交互层",
       "total": 19,
-      "closed": 4,
-      "percent": 21.1
+      "closed": 6,
+      "percent": 31.6
     },
     {
       "key": "P5",
@@ -63,17 +63,24 @@
     }
   ],
   "status": {
-    "Todo": 31,
+    "Todo": 29,
     "In Progress": 2,
-    "Done": 62
+    "Done": 64
   },
   "recent": [
     {
       "number": 46,
       "title": "极简 Web 聊天页（单文件 HTML 连 :8000，替代 macOS 客户端）",
-      "state": "open",
-      "updated_at": "2026-11-05T16:16:27Z",
+      "state": "closed",
+      "updated_at": "2026-11-06T15:52:41Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/46"
+    },
+    {
+      "number": 96,
+      "title": "feat(shell): 流式多段逐条推送 —— 恢复「连发消息」的段间停顿",
+      "state": "closed",
+      "updated_at": "2026-11-06T15:38:13Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/96"
     },
     {
       "number": 80,
@@ -81,13 +88,6 @@
       "state": "open",
       "updated_at": "2026-11-05T16:16:19Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/80"
-    },
-    {
-      "number": 96,
-      "title": "feat(shell): 流式多段逐条推送 —— 恢复「连发消息」的段间停顿",
-      "state": "open",
-      "updated_at": "2026-11-05T16:16:10Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/96"
     },
     {
       "number": 95,
