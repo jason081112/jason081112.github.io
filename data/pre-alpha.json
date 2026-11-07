@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T16:14:11Z",
+  "generated_at": "2026-11-07T18:17:22Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
@@ -7,9 +7,9 @@
   },
   "overall": {
     "total": 99,
-    "closed": 65,
-    "open": 34,
-    "percent": 65.7
+    "closed": 66,
+    "open": 33,
+    "percent": 66.7
   },
   "phases": [
     {
@@ -44,8 +44,8 @@
       "key": "P4",
       "label": "P4 交互层",
       "total": 22,
-      "closed": 6,
-      "percent": 27.3
+      "closed": 7,
+      "percent": 31.8
     },
     {
       "key": "P5",
@@ -63,17 +63,24 @@
     }
   ],
   "status": {
-    "Todo": 32,
+    "Todo": 31,
     "In Progress": 2,
-    "Done": 64
+    "Done": 65
   },
   "recent": [
     {
       "number": 98,
       "title": "test: 实机测试问题清单（2026-11-08 Codespace / 手机浏览器 9 项）",
       "state": "open",
-      "updated_at": "2026-11-07T16:13:10Z",
+      "updated_at": "2026-11-07T16:29:48Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/98"
+    },
+    {
+      "number": 50,
+      "title": "会话历史落盘与导出（chat_log_store.py）",
+      "state": "closed",
+      "updated_at": "2026-11-07T16:21:25Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/50"
     },
     {
       "number": 99,
@@ -95,13 +102,6 @@
       "state": "closed",
       "updated_at": "2026-11-06T15:52:41Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/46"
-    },
-    {
-      "number": 96,
-      "title": "feat(shell): 流式多段逐条推送 —— 恢复「连发消息」的段间停顿",
-      "state": "closed",
-      "updated_at": "2026-11-06T15:38:13Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/96"
     }
   ]
 }
