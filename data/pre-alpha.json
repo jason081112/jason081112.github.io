@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-08T04:42:17Z",
+  "generated_at": "2026-11-11T14:38:30Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 99,
-    "closed": 66,
+    "total": 98,
+    "closed": 65,
     "open": 33,
-    "percent": 66.7
+    "percent": 66.3
   },
   "phases": [
     {

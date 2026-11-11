@@ -228,12 +228,19 @@ def build_recent(nodes: list, limit: int = 5) -> list:
 def main() -> int:
     totals, issues = fetch_issues()
 
-    total = totals["open"] + totals["closed"]
-    closed = totals["closed"]
-
     status, project_url = fetch_project_status()
     if not project_url:
         project_url = "https://github.com/users/%s/projects/%d" % (OWNER, PROJECT_NUMBER)
+
+    # Project 看板是产品口径：个别 issue 不在 Project 里，不能拿 issue 总数当分母。
+    if status:
+        total = sum(status.values())
+        closed = status.get("Done", 0)
+        open_total = total - closed
+    else:
+        total = totals["open"] + totals["closed"]
+        closed = totals["closed"]
+        open_total = totals["open"]
 
     document = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -245,7 +252,7 @@ def main() -> int:
         "overall": {
             "total": total,
             "closed": closed,
-            "open": totals["open"],
+            "open": open_total,
             "percent": percent(closed, total),
         },
         "phases": build_phases(issues),
