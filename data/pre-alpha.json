@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-11T14:38:30Z",
+  "generated_at": "2026-11-16T19:50:15Z",
   "source": {
     "repo": "https://github.com/jason081112/Pre_Alpha",
     "issues": "https://github.com/jason081112/Pre_Alpha/issues",
     "project": "https://github.com/users/jason081112/projects/1"
   },
   "overall": {
-    "total": 98,
+    "total": 101,
     "closed": 65,
-    "open": 33,
-    "percent": 66.3
+    "open": 36,
+    "percent": 64.4
   },
   "phases": [
     {
@@ -50,7 +50,7 @@
     {
       "key": "P5",
       "label": "P5 隐私合规",
-      "total": 12,
+      "total": 15,
       "closed": 0,
       "percent": 0.0
     },
@@ -63,11 +63,32 @@
     }
   ],
   "status": {
-    "Todo": 31,
+    "Todo": 34,
     "In Progress": 2,
     "Done": 65
   },
   "recent": [
+    {
+      "number": 100,
+      "title": "[P5] Waffo AIGC 合规：Prompt Sift + 输出审核 + 违规处置",
+      "state": "open",
+      "updated_at": "2026-11-16T16:01:41Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/100"
+    },
+    {
+      "number": 101,
+      "title": "[P5] 公开法律与信任页：服务条款 / 隐私政策 / AUP / 页脚入口",
+      "state": "open",
+      "updated_at": "2026-11-16T14:48:42Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/101"
+    },
+    {
+      "number": 102,
+      "title": "[P5] 公开定价页与 Waffo 收款闭环",
+      "state": "open",
+      "updated_at": "2026-11-16T14:31:55Z",
+      "url": "https://github.com/jason081112/Pre_Alpha/issues/102"
+    },
     {
       "number": 98,
       "title": "test: 实机测试问题清单（2026-11-08 Codespace / 手机浏览器 9 项）",
@@ -81,27 +102,6 @@
       "state": "closed",
       "updated_at": "2026-11-07T16:21:25Z",
       "url": "https://github.com/jason081112/Pre_Alpha/issues/50"
-    },
-    {
-      "number": 99,
-      "title": "exp: 模型 × 人格表现对照 —— 「傻」是模型问题还是人格问题",
-      "state": "open",
-      "updated_at": "2026-11-07T16:10:25Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/99"
-    },
-    {
-      "number": 97,
-      "title": "fix(routing): 新用户没有默认路由，登录后直接聊会报 route_not_configured",
-      "state": "open",
-      "updated_at": "2026-11-07T15:53:13Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/97"
-    },
-    {
-      "number": 46,
-      "title": "极简 Web 聊天页（单文件 HTML 连 :8000，替代 macOS 客户端）",
-      "state": "closed",
-      "updated_at": "2026-11-06T15:52:41Z",
-      "url": "https://github.com/jason081112/Pre_Alpha/issues/46"
     }
   ]
 }
